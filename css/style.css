@@ -7,10 +7,17 @@ html {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #ffffff;
+  background: #000;
 }
 
 .container {
   max-width: 1500px;
+  width: 100%;
+  margin: auto;
+}
+
+.container--wide {
+  max-width: 800px;
   width: 100%;
   margin: auto;
 }
@@ -36,6 +43,10 @@ a:hover {
   justify-content: space-between;
 }
 
+.header-menu-regist {
+  border-bottom: 2px solid #ffffff;
+}
+
 .header-login-button__enter {
   margin-right: 30px;
   padding: 10px 25px;
@@ -51,6 +62,10 @@ a:hover {
   border: none;
   background: #8d1616;
   color: #ffffff;
+}
+
+.header-login-button__cab {
+  margin-left: 20px;
 }
 
 .header-content {
@@ -239,5 +254,239 @@ a:hover {
 
 .footer-nav__link--number {
   margin-left: -30px;
+}
+
+.form {
+  background: #000;
+  padding: 100px 0;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container--wide {
+  max-width: 450px;
+}
+
+.input {
+  border-radius: 4px;
+  border: none;
+}
+
+.input-button {
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background: #db5454;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a3a3a3;
+  background: #8d1616;
+  padding: 30px 10px 30px 10px;
+  border-radius: 4px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-name {
+  border-radius: 4px;
+  border: none;
+  margin-right: 29px;
+  height: 30px;
+}
+
+.input-group-surname {
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all {
+  display: flex;
+  flex-direction: column;
+  max-width: 374px;
+  width: 100%;
+}
+
+.input-all-midname {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all-login {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all-mail {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all-password {
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all-replay {
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.input-all-checkbox {
+  margin-right: 30px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form {
+  padding: 165px;
+}
+
+.input-title {
+  text-align: center;
+}
+
+.input-groups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #8d1616;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.input-groups-enter {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-groups-password {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+}
+
+.cab {
+  padding: 100px;
+}
+
+.cab-info {
+  display: flex;
+  align-items: center;
+}
+
+.cab-info__img {
+  width: 300px;
+  height: 350px;
+  border-radius: 4px;
+}
+
+.cab-info__title {
+  margin-right: 13px;
+}
+
+.cab-name {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 45px;
+}
+
+.cab-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-cab {
+  margin-left: 30px;
+  padding: 9px;
+  border: none;
+  border-radius: 9px;
+  background: #8d1616;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.application {
+  margin-top: 80px;
+}
+
+.application-all {
+  display: flex;
+  align-items: center;
+}
+
+.application-title {
+  margin-left: 108px;
+  margin-top: 50px;
+}
+
+.application-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 108px;
+  background: #ffffff;
+  max-width: 340px;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.application-card__img {
+  width: 300px;
+  height: 330px;
+  border-radius: 8px;
+}
+
+.application-name {
+  display: flex;
+  margin-top: 50px;
+}
+
+.application-name__nickname {
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-bottom: 1px;
 }
 /*# sourceMappingURL=style.css.map */
